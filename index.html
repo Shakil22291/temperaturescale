@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>temperature scale</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="title"><h2>convert temperature scale</h2></div>
+        <form class="main-form">
+          <div class="user-input">
+            <input
+              class="main-value"
+              type="number"
+              name="temparature"
+              placeholder="0"
+            />
+            <div class="col-2">
+              <select name="first-select" id="selectOne" class="select-one">
+                <option value="celsius">celsius</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="kelvin">kelvin</option>
+              </select>
+              <div class="separator-text">
+                <h4>To</h4>
+              </div>
+              <select name="second-select" id="selectTwo" class="select-two">
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="celsius">celsius</option>
+                <option value="kelvin">kelvin</option>
+              </select>
+              <button class="submit-btn" type="submit">Enter</button>
+            </div>
+          </div>
+        </form>
+        <div class="result"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
