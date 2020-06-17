@@ -31,10 +31,6 @@ mainForm.addEventListener("submit", function (e) {
   } else if (selectOneValue == selectTwoValue) {
     resultText.innerHTML = `<h4 class="invalid">Please select a valid value</h4>`;
   }
-  /* 
-  if (selectOneValue == "fahrenheit" && selectTwoValue == "celcius") {
-    console.log("hello world");
-  } */
 });
 
 //ALL THE CONVERT FUNCTION
